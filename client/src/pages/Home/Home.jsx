@@ -3,8 +3,8 @@ import './Home.scss'
 
 function Home() {
   return (
-    <div>
-      Welcome to home
+    <div className='homeBg'>
+
     </div>
   )
 }
