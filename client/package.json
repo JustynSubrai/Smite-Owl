@@ -15,5 +15,8 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "sass": "^1.52.2"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
   }
 }
