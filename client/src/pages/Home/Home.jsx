@@ -21,6 +21,10 @@ function Home() {
           </ul>
         </nav>
       </div>
+      <div className="body-container">
+        <h1 className="body-items">Welcome to Smite Owl</h1>
+        <input  className="body-items" type="search" placeholder='Search players.'/>
+      </div>
     </div>
   )
 }

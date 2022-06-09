@@ -15,8 +15,10 @@
 
 .nav-container {
     background-color: #152234;
+    // background-color: yellow;
     color: white;
     height: 8vh;
+    border-bottom: grey .5px solid;
 }
 
 .nav {
@@ -68,7 +70,7 @@
         text-align: center;
         width: 100%;
         height: 100%;
-        background-color: black;
+        background-color: transparent;
         color: white;
         border-radius: 5px;
         border: white solid 1px;

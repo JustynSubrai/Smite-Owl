@@ -10,7 +10,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -100;
-
 }
 
 .home-title {
@@ -25,6 +24,7 @@
     background-color: #152234;
     color: white;
     height: 8vh;
+    border-bottom: grey .5px solid;
 }
 
 .home-nav {
@@ -70,5 +70,20 @@
     .homeLinkTags:hover {
         cursor: pointer;
         color: gold;
+    }
+}
+
+.body-container {
+    height: 60%;
+    width: 60%;
+    // background-color: #152234;
+    position: absolute;
+    top: 25%;
+    left: 19%;
+    align-items: center;
+
+    .body-items {
+        display: flex;
+        left: 100%;
     }
 }
