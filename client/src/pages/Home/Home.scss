@@ -12,3 +12,63 @@
     z-index: -100;
 
 }
+
+.home-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-right: 1rem;   
+}
+
+.home-nav-container {
+    background-color: #152234;
+    color: white;
+    height: 8vh;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-logo-container {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    right: 16%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.home-logo {
+    height: 40px;
+    width: 80px;
+    margin-right: 15px;
+}
+
+.home-nav-links {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    list-style: none;
+    left: 10%;
+    position: relative;
+
+    .homeLinkTags {
+        text-decoration: none;
+        color: #fff;
+    }
+    .homeLinkTags:hover {
+        cursor: pointer;
+        color: gold;
+    }
+}
