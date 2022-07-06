@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "md5": "^2.3.0",
+    "moment": "^2.29.3",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "sass": "^1.52.2"
