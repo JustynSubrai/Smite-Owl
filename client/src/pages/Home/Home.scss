@@ -1,3 +1,8 @@
+.Home {
+    background-color: black;
+    z-index: -100;
+}
+
 .homeBg {
     position: absolute;
     background-image: url("../../../public/images/smite.png");
@@ -10,6 +15,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -100;
+    opacity: 100%;
 
 }
 
@@ -25,6 +31,8 @@
     background-color: #152234;
     color: white;
     height: 8vh;
+    opacity: 80%;
+    z-index: 1;
 }
 
 .home-nav {
