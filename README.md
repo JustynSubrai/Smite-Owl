@@ -17,10 +17,10 @@
 * [Packages Used](#packages-used)
 
 # Description
-```
+
 Smite Owl is a progessive webapp where users can access their account info and to look at builds and gods through win rate percentage
 
-```
+
 
 # Packages Used
   * Express
